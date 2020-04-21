@@ -1,0 +1,444 @@
+/*初始化代码*/
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+ul,
+li,
+input,
+img,
+a,
+i,
+p,
+em,
+strong {
+	margin: 0;
+	padding: 0;
+	/*清除内外边距*/
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
+
+li {
+	list-style: none;
+}
+
+input {
+	border: 0 none;
+	outline: 0 none;
+}
+
+img {
+	border: 0 none;
+	vertical-align: middle;
+}
+
+h1,
+h2,
+h3,
+h4 {
+	font-weight: normal;
+}
+
+em,
+i {
+	font-style: normal;
+}
+
+body {
+	font: 12px/100% "方正悠黑";
+	background-color: #f6f6f6;
+}
+
+.w {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.clearfix:after {
+	content: "";
+	display: block;
+	clear: both;
+	height: 0;
+	visibility: hidden;
+}
+
+.clearfix {
+	*zoom: 1;
+}
+
+
+.bg {
+	width: 100%;
+	height: 770px;
+	overflow: hidden;
+	background: url("imgs/banner.jpg") center center;
+}
+
+.header {
+	height: 25px;
+	margin-top: 22px;
+}
+
+.header .logo {
+	float: left;
+}
+
+.header .nav {
+	float: left;
+	margin-left: 150px;
+}
+
+.header .nav li {
+	float: left;
+	line-height: 25px;
+	margin-right: 55px;
+	font-size: 14px;
+}
+
+.bg .title {
+	text-align: center;
+	margin-top: 130px;
+}
+
+.bg .title1 {
+	font-size: 36px;
+	font-weight: 600;
+	line-height: 36px;
+}
+
+.bg .title2 {
+	font-size: 22px;
+	line-height: 22px;
+	margin-top: 26px;
+}
+
+
+.bg .search {
+	width: 650px;
+	height: 50px;
+	background-color: #fff;
+	border-radius: 25px;
+	margin-top: 35px;
+	line-height: 50px;
+}
+
+.bg .search i.icon-icon- {
+	font-size: 35px;
+	float: left;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+}
+
+.bg .search input {
+	float: left;
+	width: 505px;
+	height: 50px;
+	border-radius: 25px;
+	padding-left: 5px;
+}
+
+.self-title {
+	height: 226px;
+	font-size: 34px;
+	font-weight: bold;
+	text-align: center;
+	line-height: 200px;
+}
+
+.self-list {
+	height: 728px;
+}
+
+.self-list li {
+	float: left;
+	width: 294px;
+	height: 360px;
+	background-color: #fff;
+	margin-right: 8px;
+	margin-bottom: 8px;
+}
+
+.self-list li a {
+	display: block;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+}
+
+.self-list li a i.icon {
+	display: block;
+	width: 100px;
+	height: 70px;
+	background: url("imgs/精灵图.jpg");
+	margin: 44px auto 22px;
+}
+
+.self-list li a p.name {
+	font-size: 20px;
+	font-weight: 600;
+	line-height: 20px;
+}
+
+.self-list li a p.desc {
+	font-size: 16px;
+	padding: 0px 35px;
+	line-height: 32px;
+	margin-top: 60px;
+}
+
+.self-list li:nth-child(4n){
+	margin-right: 0;
+}
+
+.self-list li:nth-child(5){
+	margin-bottom: 0;
+}
+
+
+.self-list li:nth-child(6){
+	margin-bottom: 0;
+}
+
+
+
+.self-list li:nth-child(7){
+	margin-bottom: 0;
+}
+
+
+.self-list li:nth-child(8){
+	margin-bottom: 0;
+}
+
+
+
+.hot {
+	background-color: #fff;
+	margin-top: 83px;
+}
+
+.hot .hot-title {
+	height: 196px;
+	border-bottom: 1px solid #ccc;
+	text-align: center;
+	font-size: 34px;
+	font-weight: bold;
+	line-height: 190px;
+}
+
+.hot .hot-list1 {
+	height: 375px;
+	border-bottom: 1px solid #ccc;
+}
+
+.hot .hot-list1 .left {
+	width: 328px;
+	height: 300px;
+	float: left;
+	margin-top: 65px;
+}
+
+.hot .hot-list1 .left p.title {
+	font-size: 28px;
+	line-height: 38px;
+}
+
+
+.hot .hot-list1 .left p.desc {
+	font-size: 16px;
+	line-height: 28px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.hot .hot-list1 .left a {
+	font-size: 16px;
+	line-height: 16px;
+}
+
+.hot .hot-list1 .right {
+	float: right;
+	margin-top: 71px;
+	margin-right: 50px;
+}
+
+
+.hot .hot-list1.tag {
+	border:0 none;
+}
+
+
+.section {
+	height: 116px;
+	padding: 26px 0px;
+	background-color: #fff;
+	border-top: 1px solid #ccc;
+	border-bottom: 1px solid #ccc;
+}
+.section .left {
+	height: 100%;
+	width: 50%;
+	border-right: 1px solid #ccc;
+	float: left;
+	margin-left: -1px;
+}
+
+.section .left .content {
+	height: 100%;
+	width: 512px;
+	float: right;
+	text-align: center;
+}
+
+.section .left .content p.title {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 22px;
+	margin-top: 15px;
+}
+
+.section .left .content p.desc {
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+.section .left .content a {
+	font-size: 14px;
+	line-height: 14px;
+}
+
+
+
+.section .right {
+	height: 100%;
+	width: 50%;
+	float: left;
+}
+
+.section .right .content {
+	height: 100%;
+	width: 512px;
+	float: left;
+	text-align: center;
+}
+
+.section .right .content p.title {
+	font-size: 22px;
+	font-weight: bold;
+	line-height: 22px;
+	margin-top: 15px;
+}
+
+.section .right .content p.desc {
+	font-size: 14px;
+	line-height: 14px;
+	margin-top: 20px;
+	margin-bottom: 16px;
+}
+
+.section .right .content a {
+	font-size: 14px;
+	line-height: 14px;
+}
+
+.box {
+	background-color: #fff;
+}
+.help {
+	height: 270px;
+	background-color: #fff;
+	border-bottom: 1px solid #ccc;
+}
+
+.help ul {
+	float: left;
+	margin-top: 50px;
+	width: 188px;
+}
+
+.help ul li {
+	line-height: 30px;
+}
+
+.help .severs {
+	width: 173px;
+	height: 120px;
+	float: right;
+	margin-top: 55px;
+}
+
+.help .severs a {
+	display: block;
+	width: 173px;
+	height: 51px;
+	text-align: center;
+	line-height: 51px;
+	background-color: #656565;
+	border-radius: 25px;
+	color: #fff;
+}
+
+.help .severs a i.icon-chaoaiwawa {
+	font-size: 36px;
+	float: left;
+	margin-left: 30px;
+	margin-right: 5px;
+}
+
+.help .severs a i.text {
+	font-size: 16px;
+	float: left;
+
+}
+
+.help .severs .num {
+	float: right;
+	font-size: 20px;
+	line-height: 20px;
+	margin-top: 20px;
+}
+
+.help .severs .hour {
+	float: right;
+	margin-top: 14px;
+}
+
+.box .footer {
+	height: 109px;
+
+}
+
+.box .footer p {
+	float: left;
+	margin-top: 30px;
+}
+
+.box .footer ul {
+	float: right;
+	margin-top: 26px;
+}
+
+.box .footer ul li {
+	float: left;
+	height: 20px;
+	line-height: 20px;
+	margin-right: 12px;
+}
+
+.box .footer ul li:nth-child(2),
+.box .footer ul li:nth-child(3),
+.box .footer ul li:nth-child(4),
+.box .footer ul li:nth-child(6){
+	font-size: 18px;
+}

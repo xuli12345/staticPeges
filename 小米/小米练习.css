@@ -1,0 +1,337 @@
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+ul,
+input,
+img,
+strong,
+li,
+a,
+p,
+i {
+    margin: 0;
+    padding: 0;
+}
+
+i {
+    font-style: normal;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+input {
+    border: none;
+    outline: none;
+}
+
+body {
+    font: 12px/100% "微软雅黑";
+    background-color: #fff;
+}
+
+li {
+    list-style: none;
+}
+
+.clearfix:after {
+    content: ".";
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+
+.clearfix {
+    *zoom: 1;
+}
+
+.guild {
+    height: 40px;
+    background-color: #333333;
+}
+
+.nav {
+    width: 1226px;
+    height: 40px;
+    background-color: #333333;
+    margin: 0 auto;
+}
+
+.nav ul {
+    float: left;
+}
+
+.nav ul li {
+    float: left;
+    line-height: 40px;
+}
+
+.nav ul li.line {
+    width: 1px;
+    height: 12px;
+    background-color: #3f3a35;
+    margin: 14px 8px;
+}
+
+.userInfo {
+    float: right;
+}
+
+.userInfo .tag {
+    margin-right: 20px;
+}
+
+.userInfo .shopping {
+    width: 120px;
+    height: 40px;
+    float: right;
+    margin: 0 auto;
+    background-color: #424242;
+}
+
+.userInfo .shopping a {
+    text-align: center;
+    line-height: 40px;
+    margin-left: 32px;
+}
+
+.header {
+    width: 1226px;
+    height: 100px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+.logo {
+    width: 55px;
+    height: 55px;
+    background-image: url(./小米作业的图片/images/logo_03.png);
+    margin-top: 22px;
+    float: left;
+}
+
+.header .menu ul {
+    float: left;
+    margin-left: 170px;
+}
+
+.header .menu ul li {
+    float: left;
+    margin-top: 20px;
+    line-height: 55px;
+    text-align: center;
+    padding-right: 20px;
+    font-size: 16px;
+}
+
+.search {
+    width: 295px;
+    height: 50px;
+    float: right;
+    margin-top: 25px;
+}
+
+.search input {
+    width: 240px;
+    height: 50px;
+    float: left;
+    border: 1px solid #e0e0e0;
+}
+
+.search a {
+    width: 50px;
+    height: 50px;
+    display: block;
+    float: right;
+    background-image: url("./fangdajin.png");
+}
+
+.main {
+    width: 1226px;
+    margin: 0 auto;
+    height: 460px;
+    background-image: url("./小米作业的图片/小米笔记本.jpg");
+}
+
+.classList {
+    width: 233px;
+    height: 460px;
+    background-color: rgba(0, 0, 0, .3);
+    float: left;
+}
+
+.classList li {
+    font-size: 14px;
+    height: 44px;
+    line-height: 44px;
+}
+
+.classList li a {
+    color: #fff;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin-left: 30px;
+}
+
+.classList li span {
+    float: left;
+}
+
+.classList li i {
+    margin-right: 54px;
+    float: right;
+    color: #fff;
+}
+
+.main-bottom {
+    width: 1226px;
+    height: 170px;
+    float: left;
+    margin-top: 15px;
+    background-color: skyblue;
+}
+
+.main-bottom .hotWord {
+    width: 235px;
+    height: 100%;
+    background-color: yellowgreen;
+    margin-right: 15px;
+    float: left;
+}
+
+.main-bottom .hotWord li {
+    width: 78px;
+    height: 85px;
+    background-color: #5f5750;
+    float: left;
+    text-align: center;
+    line-height: 85px;
+    position: relative;
+}
+
+.main-bottom .hotWord li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.main-bottom .hotWord li span {
+    display: block;
+    margin-top: 12px;
+    color: #cdcac8;
+}
+
+.main-bottom .hotWord li i {
+    position: absolute;
+    left: 50%;
+    margin-left: -14px;
+    top: 15%;
+    display: block;
+    width: 28px;
+    height: 28px;
+    background-image: url(./小米作业的图片/sq.png);
+}
+
+.main-bottom .hotWord li:nth-child(2) i {
+    background-position-y: -36px;
+}
+
+.main-bottom .hotWord li:nth-child(3) i {
+    background-position-y: -74px;
+}
+
+.main-bottom .hotWord li:nth-child(4) i {
+    background-position-y: -110px;
+}
+
+.main-bottom .hotWord li:nth-child(5) i {
+    background-position-y: -74px;
+}
+
+.main-bottom .hotWord li:nth-child(6) i {
+    background-position-y: -36px;
+}
+
+.bdr::before {
+    content: "";
+    height: 75%;
+    width: 1px;
+    background-color: #665e57;
+    position: absolute;
+    right: 0;
+    top: 10%;
+}
+
+.bdb::after {
+    content: "";
+    height: 1px;
+    width: 75%;
+    background-color: #665e57;
+    position: absolute;
+    bottom: 0;
+    left: 15%;
+}
+
+.banner {
+    width: 976px;
+    height: 170px;
+    float: left;
+}
+
+.banner .one {
+    width: 315px;
+    height: 170px;
+    float: left;
+    margin-right: 15px;
+    background-image: url(./小米作业的图片/红米.jpg);
+    background-size: contain;
+}
+
+.banner a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.banner .two {
+    width: 315px;
+    height: 170px;
+    float: left;
+    margin-right: 15px;
+    background-image: url(./小米作业的图片/max2.jpg);
+    background-size: contain;
+}
+
+.banner .three {
+    width: 315px;
+    height: 170px;
+    float: right;
+    background-image: url(./小米作业的图片/小米路由器3.jpg);
+    background-size: contain;
+}
+
+.recommend {
+    font-size: 20px;
+    float: left;
+    margin-top: 45px;
+}
+
+.btn {
+    float: right;
+    background-color: yellow;
+    margin-top: 50px;
+    width: 70px;
+}
+
+.btn .left {
+    border: 1px solid #bbcce0;
+    width: 34px;
+}

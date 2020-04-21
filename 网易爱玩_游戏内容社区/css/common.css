@@ -1,0 +1,508 @@
+ /* 通用代码 */
+ 
+ .top {
+     width: 100%;
+     height: 90px;
+     background-color: #282828;
+     margin-bottom: 18px;
+ }
+ 
+ .header {
+     height: 90px;
+     position: relative;
+ }
+ 
+ .header .logo {
+     float: left;
+     width: 200px;
+     height: 60px;
+ }
+ 
+ .header .logo a {
+     width: 100%;
+     height: 100%;
+     display: block;
+ }
+ 
+ .header .logo a img {
+     padding-top: 16px;
+ }
+ 
+ .header .logo h1 {
+     text-indent: -9999px;
+ }
+ 
+ .header .nav-a {
+     float: left;
+     margin-left: 110px;
+     text-align: center;
+     line-height: 90px;
+     height: 90px;
+     font-size: 20px;
+ }
+ 
+ .header .nav-a a {
+     margin-right: 63px;
+     color: #ffffdc;
+ }
+ 
+ .header .nav-a i {
+     margin-left: 27px;
+     color: #666666;
+ }
+ 
+ .header .nav-o {
+     text-align: center;
+     line-height: 90px;
+     float: left;
+     font-size: 16px;
+     margin-right: 100px;
+ }
+ 
+ .header .nav-o a {
+     color: #a7bfbf;
+     margin-left: 40px;
+ }
+ 
+ .header .nav-l {
+     float: left;
+     text-align: center;
+     line-height: 90px;
+     font-size: 16px;
+ }
+ 
+ .header .nav-l a {
+     color: #a7bfbf;
+     margin-right: 26px;
+ }
+ 
+ .header .nav-vote {
+     position: absolute;
+     right: 0;
+     line-height: 90px;
+     text-align: center;
+ }
+ 
+ .header .nav-vote a {
+     padding: 8px 20px;
+     color: #ffffdc;
+     font-size: 20px;
+     margin-top: 24px;
+     border: 2px solid #454545;
+     border-radius: 30px;
+ }
+ /* 模块一 */
+ 
+ .g-header {
+     height: 458px;
+     margin-bottom: 10px;
+ }
+ 
+ .g-header .gHeaderLeft {
+     width: 875px;
+     height: 458px;
+     overflow: hidden;
+     float: left;
+     perspective: 800px;
+ }
+ 
+ .gHeaderLeft .pic1:hover {
+     transition: all 1s;
+     transform: scale(1.2);
+ }
+ 
+ .g-header .gHeaderRight {
+     height: 458px;
+     width: 481px;
+     float: right;
+ }
+ 
+ .g-header .gHeaderRight input {
+     width: 425px;
+     height: 50px;
+     line-height: 50px;
+     padding-left: 55px;
+     border: 1px solid #e4e4e4;
+ }
+ 
+ .g-header .gHeaderRight .gz {
+     width: 100%;
+     height: 100px;
+     line-height: 100px;
+     background-color: skyblue;
+ }
+ 
+ .g-header .gHeaderRight .gz span {
+     margin-right: 30px;
+ }
+ 
+ .gHeaderRight .ds {
+     width: 100%px;
+     height: 305px;
+     position: relative;
+ }
+ 
+ .gHeaderRight .ds .one,
+ .gHeaderRight .ds .two {
+     width: 235px;
+     height: 100%;
+     overflow: hidden;
+     position: absolute;
+ }
+ 
+ .gHeaderRight .ds img:hover {
+     transition: all 1s;
+     transform: rotate(1.2);
+ }
+ 
+ .gHeaderRight .ds img {
+     width: 235px;
+ }
+ 
+ .gHeaderRight .ds .one a,
+ .gHeaderRight .ds .two a {
+     display: inline-block;
+     height: 28px;
+     line-height: 28px;
+     background-color: #FFD222;
+     color: #333;
+     padding: 0 3px 0 12px;
+     border-radius: 3px;
+     position: absolute;
+     font-size: 14px;
+     left: 22px;
+     bottom: 45px;
+ }
+ 
+ .gHeaderRight .ds .two span,
+ .gHeaderRight .ds .one span {
+     font-size: 18px;
+     font-weight: 700;
+     color: gray;
+     position: absolute;
+     left: 22px;
+     bottom: 15px;
+ }
+ 
+ .gHeaderRight .ds .two {
+     right: 0;
+ }
+ /* 爱玩精选 */
+ 
+ .module {
+     width: 100%;
+     height: 936px;
+ }
+ 
+ .select {
+     margin-top: 65px;
+ }
+ 
+ .select .jingxuan {
+     width: 840px;
+     float: left;
+ }
+ 
+ .select .m-title {
+     margin-bottom: 30px;
+     width: 100%;
+     height: 50px;
+     border-bottom: 1px solid #e4e4e4;
+     position: relative;
+ }
+ 
+ .select .m-title h2 {
+     position: absolute;
+     width: 145px;
+     height: 45px;
+     font-size: 34px;
+     line-height: 34px;
+     font-weight: 700;
+     text-align: center;
+     color: black;
+     border-bottom: 5px solid black;
+     margin-bottom: 20px;
+ }
+ 
+ .select .m-title span {
+     font-size: 18px;
+     color: #9898a5;
+     position: absolute;
+     line-height: 50px;
+     right: 0;
+ }
+ 
+ .select .jingxuan .f1,
+ .select .jingxuan .f2 {
+     float: left;
+     width: 415px;
+     height: 275px;
+     position: relative;
+     overflow: hidden;
+     perspective: 800px;
+     margin-bottom: 10px;
+ }
+ 
+ .select .jingxuan .f2 {
+     float: right;
+ }
+ 
+ .select .jingxuan .f1 img,
+ .select .jingxuan .f2 img {
+     width: 415px;
+     height: 275px;
+ }
+ 
+ .select .jingxuan .f1 img:hover,
+ .select .jingxuan .f2 img:hover {
+     transition: all 1s;
+     transform: scale(1.2);
+ }
+ 
+ .select .jingxuan .f1 a,
+ .select .jingxuan .f2 a {
+     width: 105px;
+     height: 28px;
+     background-color: rgba(225, 225, 225, .7);
+     position: absolute;
+     color: #363636;
+     text-align: center;
+     line-height: 28px;
+     border-radius: 5px;
+     left: 15px;
+     bottom: 78px;
+     font-weight: 700;
+     font-size: 16px;
+ }
+ 
+ .select .jingxuan .f1 span,
+ .select .jingxuan .f2 span {
+     position: absolute;
+     left: 0;
+     bottom: 10px;
+     font-size: 22px;
+     color: #ffffff;
+     font-weight: 700;
+     line-height: 30px;
+     margin-left: 15px;
+     margin-right: 15px;
+ }
+ /* 游戏新鲜事 */
+ 
+ .Game-news {
+     width: 475px;
+     float: right;
+ }
+ 
+ .Game-news .title {
+     margin-bottom: 30px;
+     width: 100%;
+     height: 50px;
+     border-bottom: 1px solid #ccc;
+ }
+ 
+ .Game-news .title h3 {
+     float: left;
+     font-size: 34px;
+     font-weight: 700;
+     line-height: 47px;
+     border-bottom: 5px solid black;
+ }
+ 
+ .Game-news .title a {
+     float: right;
+     color: #9898a5;
+     font-size: 18px;
+     line-height: 50px;
+ }
+ 
+ .Game-news .content {
+     width: 100%;
+     border: 1px solid #ccc;
+     /* height: 1000px; */
+ }
+ 
+ .content .game-history {
+     width: 100%;
+     float: left;
+     height: 82px;
+     position: relative;
+     padding: 14px 0;
+     box-shadow: 0 1px 20px #ccc;
+     margin-bottom: 5px;
+ }
+ 
+ .content .game-history .icon-month {
+     width: 60px;
+     height: 60px;
+     background: url(../images/index.png);
+     float: left;
+     margin-right: 25px;
+     margin-left: 25px;
+ }
+ 
+ .content .game-history .month {
+     font-size: 28px;
+     position: absolute;
+     left: 37px;
+     top: 40px;
+ }
+ 
+ .content .game-history p:nth-of-type(1) {
+     font-size: 14px;
+     color: #dddddd;
+     line-height: 28px;
+ }
+ 
+ .content .game-history p:nth-of-type(2) {
+     font-size: 20px;
+     line-height: 34px;
+ }
+ 
+ .content .list {
+     width: 100%;
+ }
+ 
+ .content .list li {
+     float: left;
+     height: 65px;
+     width: 100%;
+     margin-left: 25px;
+     margin-top: 25px;
+ }
+ 
+ .content .list li .date {
+     font-size: 20px;
+     font-weight: 700;
+     color: #ccc;
+ }
+ 
+ .content .list li i {
+     display: inline-block;
+     width: 12px;
+     height: 12px;
+     border-radius: 6px;
+     border: 1px solid #ccc;
+     margin-right: 5px;
+ }
+ 
+ .content .list li a {
+     font-size: 16px;
+     color: #000;
+     padding-bottom: 54px;
+     border-bottom: 1px solid #e4e4e4;
+ }
+ 
+ .content .list li a.last {
+     border: none;
+ }
+ 
+ .content .list li:hover a,
+ .content .list li:hover .date {
+     color: #F4B126;
+ }
+ 
+ .content .list li:hover i {
+     background: #F4B126;
+     border-color: #F4B126;
+ }
+ 
+ .content .more {
+     width: 100%;
+     border-top: 1px solid #e4e4e4;
+     height: 70px;
+ }
+ 
+ .content .more a {
+     display: block;
+     width: 235px;
+     height: 36px;
+     background: #ffd025;
+     border-radius: 18px;
+     font-size: 20px;
+     text-align: center;
+     line-height: 36px;
+     margin: 17px auto;
+ }
+ 
+ .hardware {
+     margin-top: 10px;
+     width: 475px;
+     height: 110px;
+ }
+ /* 爱玩评测 */
+ 
+ .profile {
+     width: 100%;
+     margin-top: 75px;
+ }
+ 
+ .profile .title {
+     width: 100%;
+     height: 50px;
+     border-bottom: 1px solid #ccc;
+     margin-bottom: 30px;
+ }
+ 
+ .profile .title h3 {
+     float: left;
+     font-size: 34px;
+     font-weight: 700;
+     line-height: 47px;
+     border-bottom: 5px solid black;
+ }
+ 
+ .profile .title a {
+     float: right;
+     color: #9898a5;
+     font-size: 18px;
+     line-height: 50px;
+ }
+ /* 手风琴 */
+ 
+ .profile .m-cover {
+     /* width: 227px; */
+     width: 100%;
+     height: 298px;
+     margin-bottom: 30px;
+ }
+ 
+ .profile .m-cover ul {
+     width: 100%;
+     height: 100%;
+ }
+ 
+ .profile .m-cover ul li {
+     width: 230px;
+     float: left;
+ }
+ 
+ .profile .m-cover ul li img,
+ .profile .m-cover ul li .conment {
+     float: left;
+ }
+ 
+ .profile .m-cover .conment {
+     display: none;
+     width: 0;
+ }
+ 
+ .profile .m-cover .active {
+     display: block;
+ }
+ 
+ .profile .m-cover ul li:first-child {
+     width: 445px;
+ }
+ 
+ .profile .m-cover ul li {
+     width: 222px;
+     height: 296px;
+     overflow: hidden;
+ }
+ 
+ .profile .m-cover ul li:hover .pic {
+     transition: all 1s;
+     transform: scale(1.2);
+ }
+ /* 游戏前瞻 */

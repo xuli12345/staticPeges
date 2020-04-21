@@ -1,0 +1,73 @@
+@charset "UTF-8";
+body,
+a,
+p,
+div,
+span,
+li,
+ul,
+h1,
+h2,
+h3,
+h4,
+strong,
+i,
+img,
+input,
+del {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font: 12px/100% "微软雅黑";
+  background-color: #fff;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #333333;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+img {
+  vertical-align: middle;
+  border: none;
+}
+
+input {
+  border: none;
+  outline: none;
+}
+
+i {
+  font-style: normal;
+}
+
+.clearfix {
+  content: ".";
+  clear: both;
+  display: block;
+  height: 0;
+  visibility: hidden;
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.w {
+  width: 850px;
+  margin: 0 auto;
+}
+/*# sourceMappingURL=base.css.map */

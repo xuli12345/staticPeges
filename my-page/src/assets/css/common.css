@@ -1,0 +1,32 @@
+/* flex布局 */
+.flex-center-center{
+    display: flex;
+    justify-content: center;
+    align-content: center
+}
+
+ /* 主轴两端对齐，项目之间的间隔都相等 */
+.flex-justify-space-between {
+    display: flex;
+    justify-content: space-between;
+}
+.flex-justify-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+ /* 主轴起点对齐 */
+.flex-justify-start {
+    display: flex;
+    justify-content: flex-start;
+}
+
+ /* 主轴终点对齐 */
+.flex-justify-end {
+    display: flex;
+    justify-content: flex-end;
+}
+ /* 辅轴居中对齐 */
+.flex-align-center {
+    display: flex;
+    align-items: center;
+}

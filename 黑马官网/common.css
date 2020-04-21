@@ -1,0 +1,740 @@
+    /* 通用代码 */
+    /* 顶部通栏 */
+    
+    .top {
+        height: 30px;
+        background-color: #ececec;
+        border-top: 1px solid #b6b3b5;
+    }
+    
+    .topnav {
+        float: left;
+    }
+    
+    .topnav li {
+        float: left;
+        font-size: 14px;
+        text-align: center;
+        line-height: 30px;
+    }
+    
+    .topnav .one {
+        padding-right: 10px;
+    }
+    
+    .topnav li i {
+        padding: 0 10px;
+    }
+    
+    .topnav li a {
+        color: #565656;
+    }
+    /* 头部模块 */
+    
+    .head {
+        position: relative;
+    }
+    
+    .logo {
+        margin-top: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .logo a {
+        display: block;
+        text-indent: -999px;
+        background-image: url(./images/logo.png);
+        width: 180px;
+        height: 57px;
+    }
+    
+    .title {
+        position: absolute;
+        right: 0px;
+        top: 21px;
+    }
+    /* 导航模块 */
+    
+    .nav {
+        height: 40px;
+    }
+    
+    .nav .dropDown {
+        width: 230px;
+        height: 512px;
+        float: left;
+    }
+    
+    .dropDown .dt {
+        width: 100%;
+        height: 40px;
+        background-color: #ef0000;
+        color: #fef2f2;
+        text-align: center;
+        font-size: 18px;
+        line-height: 40px;
+        font-weight: 700;
+        border-radius: 10px 10px 0px 0px;
+    }
+    
+    .dropDown ul {
+        width: 230px;
+        height: 465px;
+        position: absolute;
+        z-index: 1;
+        background: #535353;
+        border-radius: 0px 0px 10px 10px;
+    }
+    
+    .dropDown ul .first {
+        margin-top: 20px;
+    }
+    
+    .dropDown ul li {
+        font-size: 14px;
+        line-height: 31px;
+        margin: 0px 30px;
+        transition: 0.5s ease all;
+    }
+    
+    .dropDown ul li:hover {
+        transform: translateX(15px);
+    }
+    
+    .dropDown li a {
+        display: block;
+        color: #ffffff;
+    }
+    
+    .showDetail {
+        width: 230px;
+        height: 465px;
+        position: absolute;
+        z-index: 1;
+        background: #fff;
+        left: 305px;
+        visibility: hidden;
+    }
+    
+    .dropDown li img {
+        float: right;
+        margin-top: 10px;
+    }
+    
+    .rightDown {
+        float: right;
+    }
+    
+    .rightDown li {
+        float: left;
+        text-align: center;
+        line-height: 40px;
+        margin-right: 22px;
+        font-size: 16px;
+    }
+    
+    .rightDown li a:hover {
+        color: red;
+    }
+    /* 主体模块 */
+    
+    .bg {
+        height: 385px;
+        background-color: #0068a1;
+        position: relative;
+        cursor: pointer;
+    }
+    
+    .bg .screen {
+        position: relative;
+        width: 968px;
+        height: 385px;
+        margin: 0 auto;
+        overflow: hidden;
+    }
+    
+    .bg .screen ul {
+        position: absolute;
+        height: 100%;
+        width: 6776px;
+        left: 0;
+        /* overflow: hidden; */
+    }
+    
+    .screen .f1 {
+        display: block;
+    }
+    
+    .screen li {
+        float: left;
+        height: 385px;
+        display: block;
+    }
+    
+    .screen li a {
+        display: block;
+        height: 385px;
+    }
+    
+    .bg i.one,
+    .bg i.two {
+        height: 45px;
+        line-height: 45px;
+        color: #fff;
+        position: absolute;
+        top: 170px;
+        font-size: 45px;
+    }
+    
+    .bg i:first-of-type {
+        left: 30px;
+    }
+    
+    .bg i:last-of-type {
+        right: 30px;
+    }
+    
+    .slideshow {
+        position: absolute;
+        top: 350px;
+        left: 410px;
+    }
+    
+    .slideshow i {
+        float: left;
+        width: 10px;
+        height: 10px;
+        background-color: rgba(0, 0, 0, .2);
+        border-radius: 50%;
+        margin-left: 10px;
+    }
+    
+    .slideshow .tag {
+        background-color: #007bff;
+    }
+    /* 右侧浮动窗 */
+    
+    .float-right {
+        position: fixed;
+        width: 60px;
+        height: 300px;
+        right: 0;
+        top: 350px;
+        background-color: #fff;
+    }
+    
+    .float-right li {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+    }
+    
+    .float-right li.one {
+        background-color: red;
+    }
+    
+    .banner-bottom {
+        height: 136px;
+        background-color: #f7f7f7;
+    }
+    
+    .banner-bottom .bottom-nav {
+        height: 100%;
+        float: left;
+        margin-top: 10px;
+    }
+    
+    .bottom-nav ul {
+        width: 100%;
+        height: 100%;
+    }
+    
+    .bottom-nav li {
+        float: left;
+        width: 230px;
+        height: 100px;
+        margin-left: 12px;
+        background-color: #fff;
+        border: 1px solid #e7e7e8;
+        border-radius: 5%;
+    }
+    
+    .bottom-nav a {
+        display: block;
+        width: 100%px;
+        height: 100px;
+        text-align: center;
+        margin: 0 auto;
+        transition: 0.5s ease all;
+    }
+    
+    .bottom-nav a:hover {
+        transform: translatey(-10px);
+    }
+    
+    .bottom-nav img {
+        float: left;
+        margin: 28px 18px 0 35px;
+    }
+    
+    .bottom-nav .tag {
+        padding-top: 28px;
+    }
+    
+    .bottom-nav p {
+        float: left;
+        font-size: 14px;
+        line-height: 22px;
+    }
+    /* 主体模块开始 */
+    
+    .main {
+        background-color: #f7f7f7;
+    }
+    
+    .recommend {
+        height: 345px;
+        background-color: #ffffff;
+        border-radius: 1%;
+        margin-bottom: 20px;
+    }
+    
+    .recommend h3 {
+        font-size: 20px;
+        line-height: 60px;
+    }
+    
+    .recommend .details-left {
+        float: left;
+        height: 270px;
+        width: 765px;
+        border: 1px solid #e5e5e5;
+    }
+    
+    .details-left .details-hd {
+        float: left;
+        margin-right: 25px;
+    }
+    
+    .details-left .details-hd a {
+        display: block;
+        overflow: hidden;
+        height: 270px;
+    }
+    
+    .details-hd img {
+        transition: 1s;
+    }
+    
+    .details-hd img:hover {
+        /* transform: scale(1.2) */
+        transform: rotate(360deg);
+        /* transform: skew(3turn); */
+    }
+    
+    .details-left .details-bd a {
+        display: block;
+        font-size: 18px;
+        margin-top: 38px;
+        margin-bottom: 23px;
+    }
+    
+    .details-left .details-bd a:hover {
+        color: red;
+    }
+    
+    .details-left .details-bd p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+    
+    .recommend .details-right {
+        float: right;
+        width: 400px;
+        height: 270px;
+        border-top: 2px solid #ef0000;
+        border-bottom: 1px solid #e5e5e5;
+    }
+    
+    .details-right ul {
+        overflow: hidden;
+    }
+    
+    .details-right a {
+        display: block;
+        width: 100%;
+        height: 100%;
+    }
+    
+    .details-right ul li {
+        float: left;
+        line-height: 34px;
+        width: 100%;
+    }
+    
+    .details-right li:hover {
+        background-color: #eee;
+    }
+    
+    .details-right span {
+        float: left;
+        width: 20px;
+        height: 20px;
+        background-color: #a6a6a6;
+        text-align: center;
+        line-height: 20px;
+        color: #fff;
+        margin: 7px 15px 7px 0px;
+    }
+    
+    .details-right a {
+        font-size: 16px;
+        line-height: 34px;
+    }
+    
+    .details-right .tag {
+        margin-top: 15px;
+    }
+    
+    .details-right .f1 {
+        background-color: #ee0000;
+    }
+    
+    .salary {
+        height: 310px;
+        margin-bottom: 24px;
+        background-color: #fff;
+        border-radius: 1%;
+    }
+    
+    .salary h3 {
+        font-size: 20px;
+        line-height: 55px;
+    }
+    
+    .salary .list {
+        height: 285px;
+    }
+    
+    .salary .list ul li {
+        float: left;
+        width: 285px;
+        height: 100%;
+        margin-right: 20px;
+        position: relative;
+        overflow: hidden;
+    }
+    
+    .salary .list img {
+        width: 100%;
+        height: 155px;
+    }
+    
+    .salary .list .fg {
+        display: block;
+        width: 273px;
+        font-size: 14px;
+        line-height: 24px;
+        padding-top: 9px;
+        padding-left: 10px;
+        padding-bottom: 35px;
+        border: 1px solid #e5e5e5;
+        margin-top: 1px;
+    }
+    
+    .salary .list ul .look-detail {
+        width: 100px;
+        height: 30px;
+        background-color: red;
+        text-align: center;
+        line-height: 30px;
+        position: absolute;
+        top: -30px;
+        left: 93px;
+        color: #fff;
+    }
+    
+    .salary .list .last {
+        margin-right: 0;
+    }
+    
+    .salary .list .last ul {
+        border-top: 2px solid #ef0000;
+    }
+    
+    .salary .list .last ul li.one {
+        margin-top: 8px;
+    }
+    
+    .salary .list .last ul li {
+        height: 30px;
+    }
+    
+    .salary .list .last ul li a {
+        border: 0;
+        display: block;
+    }
+    
+    .salary .list .last ul li a:hover {
+        text-decoration: underline;
+        color: red;
+    }
+    
+    .salary .list .last ul li span {
+        display: inline-block;
+        width: 7px;
+        height: 7px;
+        background-color: #535353;
+        margin-right: 12px;
+    }
+    
+    .salary .list .last ul li.eight {
+        border-bottom: 1px solid #e5e5e5;
+    }
+    /* 模块三 */
+    
+    .activity {
+        height: 435px;
+        background-color: #fff;
+        border-radius: 1%;
+    }
+    
+    .activity h3 {
+        font-size: 20px;
+        line-height: 60px;
+    }
+    
+    .activity .activity-box {
+        height: 375px;
+    }
+    
+    .activity .activity-box ul.bd {
+        float: left;
+        width: 315px;
+        height: 375px;
+    }
+    
+    .activity .activity-box ul.hd {
+        float: right;
+        width: 315px;
+        height: 375px;
+    }
+    
+    .activity .activity-box li.activity-right,
+    .activity .activity-box li.activity-left {
+        height: 86px;
+        width: 315px;
+        margin-bottom: 5px;
+        /* background-color: #f4f4f4; */
+    }
+    
+    .activity .activity-box li.activity-right a,
+    .activity .activity-box li.activity-left a {
+        padding-top: 20px;
+        display: block;
+        width: 280px;
+        height: 67px;
+        font-size: 16px;
+        padding-left: 15px;
+        line-height: 26px;
+    }
+    
+    .activity .activity-box li.activity-right a:hover,
+    .activity .activity-box li.activity-left a:hover {
+        color: #fff;
+    }
+    
+    .activity .activity-box .pics {
+        float: left;
+        width: 555px;
+        margin-left: 10px;
+        height: 375px;
+    }
+    
+    .activity .activity-box .pics .con {
+        display: none;
+    }
+    
+    .activity .activity-box .pics .con-first {
+        display: block
+    }
+    /* 模块四 */
+    
+    .concern-salary {
+        background-color: #fff;
+    }
+    
+    .concern-salary .box {
+        height: 170px;
+        width: 100%;
+        text-align: center;
+        background-color: #f7f7f7;
+    }
+    
+    .concern-salary .box h2 {
+        font-size: 30px;
+        padding-top: 50px;
+        line-height: 54px;
+    }
+    
+    .concern-salary .box p {
+        font-size: 16px;
+        color: #96abc3;
+    }
+    
+    .concern-salary .tbList {
+        border: 1px solid #9f9f9f;
+    }
+    
+    .concern-salary .tbList li {
+        float: left;
+        width: 238px;
+        height: 184px;
+        text-align: center;
+        border-right: 1px dashed #9f9f9f;
+        border-bottom: 1px dashed #9f9f9f;
+    }
+    
+    .concern-salary .tbList li.tag {
+        border-right: 0px;
+    }
+    
+    .tbList li a {
+        display: block;
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+    }
+    
+    .tbList .salaryDiv {
+        height: 40px;
+        text-align: center;
+        margin-top: 15px;
+    }
+    
+    .tbList li a img {
+        height: 40px;
+    }
+    
+    .tbList li a span {
+        display: inline-block;
+        font-size: 16px;
+    }
+    
+    .tbList li p {
+        font-size: 16px;
+        margin-top: 20px;
+        line-height: 20px;
+    }
+    
+    .tbList li p.flag {
+        font-size: 26px;
+        color: #ee0000;
+    }
+    
+    .tbList li a b {
+        font-size: 18px;
+        color: #ee0000;
+    }
+    
+    .tbList .bot img {
+        width: 230px;
+        height: 180px;
+        padding-top: 0;
+    }
+    
+    .tbList li.f2 {
+        border-bottom: 0;
+    }
+    
+    .tbList li.fr {
+        border-bottom: 0;
+        display: none;
+    }
+    
+    .concern-salary .salarydown {
+        height: 70px;
+        padding-top: 10px;
+        background-color: #f7f7f7;
+    }
+    
+    .concern-salary .salarydown .down {
+        display: block;
+        margin: 0 auto;
+    }
+    
+    .concern-salary .salarydown .up {
+        display: none;
+        margin: 0 auto;
+    }
+    /* 底部模块 */
+    
+    .floor {
+        height: 405px;
+        background-color: #ebebeb;
+    }
+    
+    .floor .station {
+        height: 100px;
+    }
+    
+    .floor .station ul {
+        margin-left: 235px;
+    }
+    
+    .floor .station li {
+        margin-top: 55px;
+        float: left;
+        margin-right: 50px;
+    }
+    
+    .floor .station img {
+        height: 30px;
+    }
+    
+    .floor .guild {
+        height: 60px;
+    }
+    
+    .floor .guild ul {
+        margin-left: 305px;
+    }
+    
+    .floor .guild li {
+        float: left;
+        margin-top: 25px;
+        margin-right: 25px;
+        font-size: 14px;
+        line-height: 14px;
+    }
+    
+    .floor .guild li i {
+        margin-left: 20px;
+    }
+    
+    .floor .links {
+        height: 95px;
+        width: 890px;
+        margin: 0 auto;
+        text-align: center;
+        line-height: 24px;
+        margin-bottom: 25px;
+    }
+    
+    .floor .links a {
+        color: #363636;
+        margin-right: 15px;
+    }
+    
+    .floor .links a:hover {
+        color: red;
+    }
+    
+    .floor p {
+        text-align: center;
+    }
+    
+    .floor .floorpic {
+        text-align: center;
+        margin-top: 35px;
+    }

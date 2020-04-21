@@ -1,0 +1,316 @@
+/* 顶部模块 */
+
+.top {
+    height: 100px;
+    background-color: black;
+    overflow: hidden;
+}
+
+.nav {
+    height: 100%;
+}
+
+.logo {
+    float: left;
+    margin-right: 196px;
+}
+
+.top .logo a {
+    display: block;
+    height: 40px;
+    background: url('../images/logo.png');
+    width: 39px;
+    margin-top: 25px;
+}
+
+.top .logo a h1 {
+    text-indent: -999px;
+}
+
+.top .links {
+    float: left;
+}
+
+.top .links li {
+    float: left;
+    line-height: 100px;
+    margin-right: 50px;
+    color: #fff;
+}
+
+.top .links li:last-of-type {
+    color: gray;
+}
+
+.userInfo {
+    float: right;
+    height: 100%;
+    margin-top: 36px;
+}
+
+.userInfo li {
+    float: left;
+}
+
+.userInfo .user,
+.userInfo .cart {
+    display: block;
+    background-image: url('../images/account-icon.png');
+    width: 22px;
+    height: 22px;
+    display: block;
+}
+
+.userInfo .cart {
+    background-position-y: -22px;
+    margin-left: 35px;
+}
+
+.userInfo .num {
+    color: #fff;
+    font-weight: 700;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    background-color: #bababa;
+    text-align: center;
+    line-height: 22px;
+    margin-left: 5px;
+}
+
+
+/* header模块 */
+
+.bg {
+    background-color: #ededed;
+}
+
+.header {
+    height: 90px;
+}
+
+.header li {
+    float: left;
+    line-height: 90px;
+    margin-right: 42px;
+    font-size: 14px;
+}
+
+
+/* 主体模块 */
+
+.banbar {
+    margin-bottom: 30px;
+}
+
+.banbar img {
+    border-radius: 10px;
+}
+
+.photo li {
+    float: left;
+    margin-bottom: 7px;
+}
+
+.photo li:first-of-type img {
+    border-radius: 10px 0 0 10px;
+}
+
+.photo li:last-of-type img {
+    border-radius: 0 10px 10px 0;
+}
+
+.shop-show {
+    margin-bottom: 30px;
+}
+
+.select .list .tag li,
+.select .list .detail li,
+.shop-show li {
+    float: left;
+    background-color: #ffffff;
+    width: 305px;
+    height: 428px;
+    text-align: center;
+    border-right: 1px solid #cccccc;
+    border-bottom: 1px solid #cccccc;
+    box-sizing: border-box;
+}
+
+.shop-show li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.select .list .tag img,
+.select .list .detail img,
+.shop-show li a img {
+    margin-top: 50px;
+}
+
+.select .list .tag .title,
+.select .list .detail .title,
+.shop-show li a .title {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.select .list .tag .desc,
+.select .list .detail .desc,
+.shop-show li a .desc {
+    color: #bababa;
+    line-height: 36px;
+    margin-bottom: 56px;
+}
+
+.select .list .tag .price,
+.select .list .detail .price,
+.shop-show li a .price {
+    font-size: 16px;
+    color: red;
+    font-weight: 700;
+}
+
+.shop-show li:first-of-type {
+    border-left: 1px solid #cccccc;
+    border-radius: 10px 0 0 10px;
+}
+
+.shop-show li:last-of-type {
+    border-radius: 0 10px 10px 0;
+}
+
+.select {
+    height: 915px;
+    border: 1px solid #cccccc;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+
+/* 锤子动态 */
+
+.dynamic {
+    height: 262px;
+    padding-bottom: 60px;
+}
+
+.dynamic .list li {
+    float: left;
+}
+
+.dynamic .list li img {
+    height: 200px;
+}
+
+.dynamic .title h3,
+.select .title h3 {
+    height: 60px;
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 30px;
+}
+
+.select .title h3 {
+    border-bottom: 1px solid #cccccc;
+}
+
+.dynamic .title h3 {
+    border: 1px solid #cccccc;
+    border-radius: 10px 10px 0 0;
+}
+
+.select .list .jianguopro {
+    float: left;
+}
+
+.select .list li {
+    float: left;
+}
+
+.select .list li:last-of-type {
+    border-right: none;
+}
+
+.dynamic .list li:first-of-type img {
+    border-radius: 0 0 0 10px;
+}
+
+.dynamic .list li:last-of-type img {
+    border-radius: 0 0 10px 0;
+}
+
+.select .list .detail li:first-of-type {
+    border-radius: 0 0 0 10px;
+}
+
+.select .list .detail li:last-of-type {
+    border-radius: 0 0 10px 0;
+}
+
+
+/* 底部模块 */
+
+.footer {
+    height: 235px;
+}
+
+.footer .content {
+    height: 100%;
+    padding-top: 90px;
+}
+
+.footer .content .help {
+    width: 940px;
+    height: 100%;
+    float: left;
+}
+
+.footer .content ul {
+    float: left;
+    margin-right: 100px;
+}
+
+.footer .content ul li {
+    line-height: 24px;
+    color: #bababa;
+}
+
+.footer .content ul li.tag {
+    font-size: 14px;
+    color: #000;
+    line-height: 32px;
+}
+
+.online-help {
+    float: right;
+    height: 235px;
+}
+
+.online-help .phone-num {
+    font-size: 26px;
+    font-weight: 700;
+    color: #333;
+}
+
+.online-help .time {
+    line-height: 36px;
+    color: #bababa
+}
+
+.online-help .btn {
+    height: 30px;
+    width: 102px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+}
+
+.online-help a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: blue;
+    line-height: 30px;
+    text-align: center;
+}
